@@ -1,0 +1,68 @@
+#include <iostream>
+#include <limits>
+#include <string>
+#include <algorithm>
+
+class InputValidator {
+public:
+    static int get_positive_int(const std::string& prompt) {
+        int num;
+        while (true) {
+            std::cout << prompt;
+            
+            if (!(std::cin >> num)) {
+                std::cout << "Error! Please enter something normal.\n";
+            } else if (num <= 0) {
+                std::cout << "Error! Number must be positive, not like your face every monday morning.\n";
+            } else {
+                clear_input_buffer();
+                return num;
+            }
+            
+            clear_input_buffer();
+        }
+    }
+
+private:
+    static void clear_input_buffer() {
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    }
+};
+
+class EvenSumCalculator {
+public:
+    static int calculate(int a, int b) {
+        if (a > b) std::swap(a, b);
+        
+        int first_even = (a % 2 == 0) ? a : a + 1;
+        int last_even = (b % 2 == 0) ? b : b - 1;
+        
+        if (first_even > last_even) return 0;
+        int n = (last_even - first_even) / 2 + 1;
+        return n * (first_even + last_even) / 2;
+    }
+};
+
+int main() {
+    std::cout << "Program calculates the sum of even numbers in a range.\n";
+    std::cout << "Enter positive integers only.\n\n";
+
+    try {
+        int num1 = InputValidator::get_positive_int("First number: ");
+        int num2 = InputValidator::get_positive_int("Second number: ");
+
+        int result = EvenSumCalculator::calculate(num1, num2);
+        
+        std::cout << "Sum of even numbers from " 
+                  << std::min(num1, num2) << " to " 
+                  << std::max(num1, num2) << " (inclusive): " 
+                  << result << std::endl;
+                  
+    } catch (const std::exception& e) {
+        std::cerr << "what the... wait a minute: " << e.what() << std::endl;
+        return 1;
+    }
+
+    return 0;
+}
