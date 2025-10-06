@@ -1,0 +1,179 @@
+Script started on 2025-10-06 16:06:19+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ git add
+[?2004lNothing specified, nothing added.
+[33mhint: Maybe you wanted to say 'git add .'?[m
+[33mhint: Turn this message off by running[m
+[33mhint: "git config advice.addEmptyPathspec false"[m
+[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ git add .
+[?2004l[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ git commit
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 8 lines ](B[m[H(B[0;7m  GNU nano 7.2                             /home/user/project/.git/COMMIT_EDITMSG                                       [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[3d[36m# Please enter the commit message for your changes. Lines starting[4d# with '#' will be ignored, and an empty message aborts the commit.[5d#[6d# On branch master[7d# Changes to be committed:[8d#[38;5;208m       [36mnew file:   typescript[9d#[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6;3H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[28d[K[?12l[?25h[6;17H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[7d[?25l[1;83H(B[0;7m*[119G(B[m[7;28r[7;1HM[1;30r[8;1H[?12l[?25h[?25l[7;28r[28;1H
+[1;30r[7;1H[?12l[?25h[?25l[?12l[?25hm# Changes to be committed:m[?25l[?12l[?25hu# Changes to be committed:mu[?25l[?12l[?25h[1P[?25l[?12l[?25h[36m# Changes to be committed:[39m(B[m[K[?25l[7;28r[28;1H
+[1;30r[6;19H[36m# Changes to be committed:[6;19H[39m(B[m[?12l[?25h[?25l7[7;28r8[7dM[1;30r[6;19H[K[7d[36m# Changes to be committed:[39m(B[m[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25hm[?25l[?12l[?25hu[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[C[?25l[?12l[?25h[36mm[39m(B[m[?25l[?12l[?25h [?25l7[6;28r8[6dM[1;30r[6;1H[?12l[?25h[?25l[6;28r[28;1H
+[1;30r[5;2H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l7[2;28r8M[1;30r[3;1H[?12l[?25h[?25l[2;28r[28;1H
+[1;30r[2;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hx[?25l[?12l[?25hx[?25l[?12l[?25h [?25l[11d[?12l[?25h[?25l[Ax[?12l[?25h[?25l[?12l[?25h[K[?25l[?12l[?25hM[?25l[?12l[?25h-[?25l[?12l[?25hU[?25l[11d[?12l[?25h[?25l[AM-U[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h^[?25l[?12l[?25hC[?25l7[3;28r8[3dM[1;30r[3;1H[?12l[?25h[?25l[3;28r[28;1H
+[1;30r[2;3H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[C[?25l[?12l[?25h[6d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[7d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[8;2H[?25l[?12l[?25h[9d[?25l[?12l[?25h[36m^[39m(B[m[?25l[?12l[?25h[36mX[39m(B[m[?25l[10d[?12l[?25h[?25l[28;54H(B[0;7m[ Writing... ](B[m[1;83H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 10 lines ](B[m[?12l[?25h[10d[?25l[1;83H(B[0;7m*[119G(B[m[9;4H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[28;52H  (B[0;7m[ Writing... ](B[m[K[1;83H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 9 lines ](B[m[?12l[?25h[9;2H[?25l[28;52H  (B[0;7m[ Writing... ](B[m[K[1;119H[28;52H(B[0;7m[ Wrote 9 lines ](B[m[?12l[?25h[9;2H[?25l[?12l[?25h[?25l[28;52H  (B[0;7m[ Writing... ](B[m[K[1;119H[28;52H(B[0;7m[ Wrote 9 lines ](B[m[?12l[?25h[9d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[28;52H  (B[0;7m[ Writing... ](B[m[K[1;119H[28;52H(B[0;7m[ Wrote 9 lines ](B[m[?12l[?25h[2d[?25l[28;52H  (B[0;7m[ Writing... ](B[m[K[1;119H[28;52H(B[0;7m[ Wrote 9 lines ](B[m[?12l[?25h[2d[?25l[28;48H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[2d[?25l[1;83H(B[0;7m*[119G(B[m[?12l[?25h[2dm[?25l[?12l[?25hu[?25l[?12l[?25hu[?25l[?12l[?25hu[?25l[?12l[?25hu[?25l[?12l[?25hu[?25l[?12l[?25hu[?25l[?12l[?25hu[?25l[?12l[?25hu[?25l[?12l[?25hu[?25l[?12l[?25hu[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[28d[K[?12l[?25h[2dmu [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l7[2;28r8M[1;30r[3;1H[?12l[?25h[?25l[2;28r[28;1H
+[1;30r[2;1H[?12l[?25h[?25l[28;50H(B[0;1m[37m[41m[ Cutbuffer is empty ][39;49m(B[m[?12l[?25h[2d[?25l[28;48H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[2d[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: /home/user/project/.git/COMMIT_EDITMSG(B[m[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m1(B[m[?12l[?25h[?25l(B[0;7mSave file under DIFFERENT NAME?                     [29d Y(B[m Yes[K[30d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[28;33H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;44H(B[0;7m   /home/user/project/.git/COMMIT_1     [119G(B[m[28;52H(B[0;7m[ Wrote 9 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[KAborting commit due to empty commit message.
+[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ git push
+[?2004lfatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ git remote add kirykito [7mhttps://github.com/Kirykito[27mhttps://github.com/Kirykito
+[?2004l[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ git push kirykito
+[?2004lremote: Not Found
+fatal: repository 'https://github.com/Kirykito/' not found
+[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ git init
+[?2004lReinitialized existing Git repository in /home/user/project/.git/
+[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ [7msudo apt install git[27msudo apt install git
+[?2004l[sudo] password for user: 
+useSorry, try again.
+[sudo] password for user: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.43.0-1ubuntu7.1).
+git set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ gi[K[Kgit remote add origin [7mhttps://github.com/Kirykito/reppo[27mhttps://github.com/Kirykito/reppo [K
+[?2004l[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ git push -u origin main
+[?2004lerror: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/Kirykito/reppo'
+[m[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ [7mgit push -u origin[27mgit push -u origin first
+[?2004lerror: src refspec first does not match any
+[31merror: failed to push some refs to 'https://github.com/Kirykito/reppo'
+[m[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ git push [7mhttps://github.com/Kirykito/reppo[27mhttps://github.com/Kirykito/reppo
+[?2004lUsername for 'https://github.com': Kirykito
+Password for 'https://Kirykito@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/Kirykito/reppo/'
+[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ git push [7mhttps://github.com/Kirykito/reppo[27mhttps://github.com/Kirykito/reppo
+[?2004lUsername for 'https://github.com': bibigoner@gmail.com
+Password for 'https://bibigoner@gmail.com@github.com': 
+[1]+  Stopped                 git push https://github.com/Kirykito/reppo
+[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ git push [7mhttps://github.com/Kirykito/reppo[27mhttps://github.com/Kirykito/reppo
+[?2004lUsername for 'https://github.com': Kirykito
+Password for 'https://Kirykito@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/Kirykito/reppo/'
+[?2004h]0;user@Nik-PC: ~/project[01;32muser@Nik-PC[00m:[01;34m~/project[00m$ cd .git
+[?2004l[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ git push [7mhttps://github.com/Kirykito/reppo[27mhttps://github.com/Kirykito/reppo
+[?2004lUsername for 'https://github.com': Kirykito
+Password for 'https://Kirykito@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/Kirykito/reppo/'
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh-keygen
+[?2004lGenerating public/private ed25519 key pair.
+Enter file in which to save the key (/home/user/.ssh/id_ed25519): project
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in project
+Your public key has been saved in project.pub
+The key fingerprint is:
+SHA256:qgLRcqf21CYBJb0CtcK8+GIsbtX8uQCIFvr+Ie6M89U user@Nik-PC
+The key's randomart image is:
++--[ED25519 256]--+
+| .oo.            |
+|+ .o.            |
+|.*.. .           |
+|*.B +            |
+|+B =oo  S        |
+|+oo.++o.         |
+|o==oo+E .        |
+|=B.o.o.o         |
+|o=*oo  ..        |
++----[SHA256]-----+
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ [7m   ssh -T git@github.com[27m   ssh -T git@github.com
+[?2004lThe authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?    ssh -T git@github.com                        тщ  no
+Please type 'yes', 'no' or the fingerprint: ^Z
+[2]+  Stopped                 ssh -T git@github.com
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ [7m   ssh -T git@github.com[27m[1P   ssh -T git@github.co[K[K[K[K[K[K[K[K[K[K[K[K[Kbibigoner@gmail.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kkir[K[K[KKirykito
+[?2004lssh: Could not resolve hostname kirykito: Temporary failure in name resolution
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh 
+[?2004lusage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J destination] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           destination [command [argument ...]]
+       ssh [-Q query_option]
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh -l Kirykito
+[?2004lusage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J destination] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           destination [command [argument ...]]
+       ssh [-Q query_option]
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh =[K-L 
+[?2004loption requires an argument -- L
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J destination] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           destination [command [argument ...]]
+       ssh [-Q query_option]
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh -T [7mgit@github.com[27mgit@github.com[C[1P@github.com[1P@github.com[1P@github.comk@github.comi@github.comr@github.comy@github.comk@github.comi@github.comt@github.como@github.com[1Pirykito@github.comKirykito@github.com
+[?2004lThe authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Kirykito@github.com: Permission denied (publickey).
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ [7mssh -T git@github.com[27mssh -T git@github.com
+[?2004lgit@github.com: Permission denied (publickey).
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh -T git@github.comKirykito@github.com[5Pgit@github.comKirykito@github.comL [KT Kirykito@github.com[5Pgit@github.com[1P@github.com[1P@github.com[1P@github.com[C@github.comK@github.comi@github.comr@github.comy@github.comk@github.comi@github.comt@github.como@github.com[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K
+[?2004lusage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J destination] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           destination [command [argument ...]]
+       ssh [-Q query_option]
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh -T @Kirykito@github.com
+[?2004l@Kirykito@github.com: Permission denied (publickey).
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh -T @Kirykito@github.com[C[C[1PKirykito@github.com
+[?2004lKirykito@github.com: Permission denied (publickey).
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ [7meval "$(ssh-agent -s)"[27meval "$(ssh-agent -s)"
+[?2004lAgent pid 765
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh-aid[K[Kdd
+[?2004l[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh-add /home/Nik-PC/.ssh/id_rsa: {[K[765]
+[?2004l/home/Nik-PC/.ssh/id_rsa:: No such file or directory
+[765]: No such file or directory
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ /home/user/.ssh/id_rsa: [765]
+[?2004lbash: /home/user/.ssh/id_rsa:: No such file or directory
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ /home/user/.ssh/id_rsa: [765][10@ssh-add /home/Nik-PC[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10P/home/user[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@a[1@d[1@d[1@ 
+[?2004lCommand 'add' not found, did you mean:
+  command 'hadd' from snap root-framework (v6-36-04)
+  command 'ldd' from deb libc-bin (2.39-0ubuntu8.3)
+  command 'dd' from deb coreutils (9.4-2ubuntu2)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ add /home/user/.ssh/id_rsa: [765][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@add [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@add [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[1@s[1@h[1@-
+[?2004l/home/user/.ssh/id_rsa:: No such file or directory
+[765]: No such file or directory
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh-add /home/user/.ssh/id_rsa: [765][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10@ssh-add /home/Nik-PC[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P765][C[C[C[C[K
+[?2004l/home/Nik-PC/.ssh/id_rsa:: No such file or directory
+765: No such file or directory
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh-add
+[?2004l[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh-add /home/Nik-PC/.ssh/id_rsa: 765user/.ssh/id_rsa: [765][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10@ssh-add /home/Nik-PC[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Keval "$(ssh-agent -s)"ssh -T Kirykito@github.com[4Peval "$(ssh-agent -s)"
+[?2004lAgent pid 785
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh-add ~/.ssh/my_other_key[K[K[K[K[K[K[K[K[K[K[K[K[7mssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEa84+gdYi2ZypbX3M1JT+UdBQKYPv5PLZlv01yIw[27m[7m3[27m[7mb0 user@Nik-PC[27m[A]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEa84+gdYi2ZypbX3M1JT+UdBQKYPv5PLZlv01yIw3b0 user@Nik-PC
+[?2004l/home/user/.ssh/ssh-ed25519: No such file or directory
+AAAAC3NzaC1lZDI1NTE5AAAAIEa84+gdYi2ZypbX3M1JT+UdBQKYPv5PLZlv01yIw3b0: No such file or directory
+user@Nik-PC: No such file or directory
+[?2004h]0;user@Nik-PC: ~/project/.git[01;32muser@Nik-PC[00m:[01;34m~/project/.git[00m$ ssh-add ~/.ssh/ssh-ed25519 AAAAC3NzaC1lZDI1N
