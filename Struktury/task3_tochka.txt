@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <math.h>
+
+struct Point {
+    double x;
+    double y;
+};
+
+int main() {
+    struct Point p;
+    printf("Enter x: ");
+    scanf("%lf", &p.x);
+    printf("Enter y: ");
+    scanf("%lf", &p.y);
+    double distance = sqrt(p.x * p.x + p.y * p.y);
+    printf("Distance from origin: %.2f\n", distance);
+
+    return 0;
+}

@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+struct Student {
+    char name[50];
+    int grade;
+};
+
+int main() {
+    struct Student students[3];
+    int total_sum = 0;
+
+    for (int i = 0; i < 3; i++) {
+        printf("Student %d - name: ", i + 1);
+        scanf(" %[^\n]", students[i].name);
+        
+        printf("Student %d - grade: ", i + 1);
+        scanf("%d", &students[i].grade);
+        
+        total_sum += students[i].grade;
+    }
+
+    float average = (float)total_sum / 3;
+    printf("\nAverage grade: %.2f\n", average);
+
+    return 0;
+}

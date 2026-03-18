@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+struct Book {
+    char title[100];
+    char author[100];
+    int year;
+};
+
+int main() {
+    struct Book b;
+    printf("Enter title: ");
+    scanf(" %[^\n]", b.title);
+    printf("Enter author: ");
+    scanf(" %[^\n]", b.author);
+    printf("Enter year: ");
+    scanf("%d", &b.year);
+    printf("\"%s\" by %s (%d)\n", b.title, b.author, b.year);
+    return 0;
+}

@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+struct Student {
+    char name[50];
+    int grade;
+};
+
+int main() {
+    struct Student students[3];
+
+    for (int i = 0; i < 3; i++) {
+        printf("Student %d - name: ", i + 1);
+        scanf(" %[^\n]", students[i].name);
+        printf("Student %d - grade: ", i + 1);
+        scanf("%d", &students[i].grade);
+    }
+
+    int best_index = 0;
+
+    for (int i = 1; i < 3; i++) {
+        if (students[i].grade > students[best_index].grade) {
+            best_index = i;
+        }
+    }
+
+    printf("\nBest student: %s (%d)\n", students[best_index].name, students[best_index].grade);
+
+    return 0;
+}

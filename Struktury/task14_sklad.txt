@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+struct Product {
+    char name[50];
+    float price;
+    int quantity;
+};
+
+int main() {
+    struct Product warehouse[3];
+    float total_warehouse_value = 0.0;
+
+    for (int i = 0; i < 3; i++) {
+        printf("Product %d - name: ", i + 1);
+        scanf(" %[^\n]", warehouse[i].name);
+        
+        printf("Product %d - price: ", i + 1);
+        scanf("%f", &warehouse[i].price);
+        
+        printf("Product %d - quantity: ", i + 1);
+        scanf("%d", &warehouse[i].quantity);
+        
+        total_warehouse_value += (warehouse[i].price * warehouse[i].quantity);
+    }
+
+    printf("\nTotal warehouse value: %.2f UAH\n", total_warehouse_value);
+
+    return 0;
+}

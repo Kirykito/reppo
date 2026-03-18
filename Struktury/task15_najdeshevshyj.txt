@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+struct Product {
+    char name[50];
+    float price;
+};
+
+int main() {
+    struct Product products[3];
+
+    for (int i = 0; i < 3; i++) {
+        printf("Product %d - name: ", i + 1);
+        scanf(" %[^\n]", products[i].name);
+        printf("Product %d - price: ", i + 1);
+        scanf("%f", &products[i].price);
+    }
+
+    int cheapest_index = 0;
+
+    for (int i = 1; i < 3; i++) {
+        if (products[i].price < products[cheapest_index].price) {
+            cheapest_index = i;
+        }
+    }
+
+    printf("\nCheapest: %s (%.2f UAH)\n", products[cheapest_index].name, products[cheapest_index].price);
+
+    return 0;
+}

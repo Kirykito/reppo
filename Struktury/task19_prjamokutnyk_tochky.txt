@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <math.h> 
+
+struct Point {
+    double x;
+    double y;
+};
+
+struct Rectangle {
+    struct Point bottom_left;
+    struct Point top_right;
+};
+
+int main() {
+    struct Rectangle rect;
+    printf("Bottom-left - x: ");
+    scanf("%lf", &rect.bottom_left.x);
+    printf("Bottom-left - y: ");
+    scanf("%lf", &rect.bottom_left.y);
+    printf("Top-right - x: ");
+    scanf("%lf", &rect.top_right.x);
+    printf("Top-right - y: ");
+    scanf("%lf", &rect.top_right.y);
+    double width = rect.top_right.x - rect.bottom_left.x;
+    double height = rect.top_right.y - rect.bottom_left.y;
+    double area = fabs(width * height);
+    printf("\nArea: %.2f\n", area);
+
+    return 0;
+}

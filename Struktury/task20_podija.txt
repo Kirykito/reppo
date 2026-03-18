@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+struct Date {
+    int day;
+    int month;
+    int year;
+};
+
+struct Time {
+    int hours;
+    int minutes;
+};
+
+struct Event {
+    char name[100];
+    struct Date date;
+    struct Time time;
+};
+
+int main() {
+    struct Event ev;
+    printf("Event name: ");
+    scanf(" %[^\n]", ev.name);
+    printf("Date - day: ");
+    scanf("%d", &ev.date.day);
+    printf("Date - month: ");
+    scanf("%d", &ev.date.month);
+    printf("Date - year: ");
+    scanf("%d", &ev.date.year);
+    printf("Time - hours: ");
+    scanf("%d", &ev.time.hours);
+    printf("Time - minutes: ");
+    scanf("%d", &ev.time.minutes);
+    printf("\nEvent: %s\n", ev.name);
+    printf("When: %02d.%02d.%d at %02d:%02d\n", 
+           ev.date.day, ev.date.month, ev.date.year, 
+           ev.time.hours, ev.time.minutes);
+
+    return 0;
+}
