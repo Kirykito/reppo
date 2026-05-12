@@ -1,0 +1,13 @@
+void unique() {
+    if (size_ <= 1) return; 
+
+    int write_index = 1; 
+    for (int i = 1; i < size_; i++) {
+       
+        if (data_[i] != data_[i - 1]) {
+            data_[write_index] = data_[i];
+            write_index++;
+        }
+    }
+    size_ = write_index; 
+}

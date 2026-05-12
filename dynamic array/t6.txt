@@ -1,0 +1,9 @@
+void insert(int index, int value) {
+    
+    for (int i = size_; i > index; i--) {
+        data_[i] = data_[i - 1];
+    }
+    
+    data_[index] = value;
+    size_++;
+}

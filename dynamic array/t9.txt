@@ -1,0 +1,11 @@
+void reserve(int n) {
+    if (n > capacity_) {
+        int* new_data = new int[n];    
+        for (int i = 0; i < size_; i++) {
+            new_data[i] = data_[i];    
+        }
+        delete[] data_;                 
+        data_ = new_data;               
+        capacity_ = n;                 
+    }
+}

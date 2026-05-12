@@ -1,0 +1,3 @@
+int& back() {
+    return data_[size_ - 1];
+}

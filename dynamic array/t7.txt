@@ -1,0 +1,5 @@
+void erase(int index) {
+    for (int i = index; i < size_ - 1; i++) {
+        data_[i] = data_[i + 1];
+    }
+    size_--;

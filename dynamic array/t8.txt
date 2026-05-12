@@ -1,0 +1,10 @@
+void shrink_to_fit() {
+    if (size_ < capacity_) {
+        int* new_data = new int[size_]; 
+        for (int i = 0; i < size_; i++) {
+            new_data[i] = data_[i];            }
+        delete[] data_;                 
+        data_ = new_data;                       
+	capacity_ = size_;              
+    }
+}
